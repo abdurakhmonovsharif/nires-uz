@@ -1,0 +1,27 @@
+{
+  "contactUs": "Biz bilan bog’laning",
+  "suggestionsOrIssues": "Qandaydur takliflar yoki muammoyingiz bo’lsa tortinmang",
+  "firstName": "Ism",
+  "enterFirstName": "Ismingizni kiriting",
+  "lastName": "Familya",
+  "phone": "Telefon raqam",
+  "enterLastName": "Familyangizni kiriting",
+  "emailAddress": "Elektron pochta",
+  "enterEmail": "namuna@gmail.com",
+  "message": "Habar",
+  "enterMessage": "Har qanday murojaatinizni yozishingiz mumkin",
+  "send": "Yuborish",
+  "clear": "Tozalash",
+  "your_message": "Sizning xatingiz",
+  "visit_store": {
+    "title": "Bizning ofisimizga tashrif buyuring va loyihalarimiz sifatini ko'ring!"
+  },
+  "Anonim bog'lanish": "Anonim bog'lanish",
+  "Bog'lanish": "Bog'lanish",
+  "Manzil": "Manzil",
+  "Savolingiz bormi?": "Savolingiz bormi?",
+  "Shartnomalar uchun": "Shartnomalar uchun",
+  "Bizga qo'ng'iroq qiling": "Bizga qo'ng'iroq qiling",
+  "Faks": "Faks",
+  "Avtobuslar": "Avtobuslar"
+}

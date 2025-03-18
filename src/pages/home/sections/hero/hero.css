@@ -1,0 +1,9 @@
+#hero {
+  position: relative;
+}
+
+@media (min-width: 1600px) {
+  #hero {
+    margin-bottom: 120px;
+  }
+}

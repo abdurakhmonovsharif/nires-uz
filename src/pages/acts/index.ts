@@ -1,0 +1,1 @@
+export {Acts} from './acts.tsx'

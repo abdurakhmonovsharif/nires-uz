@@ -1,0 +1,26 @@
+{
+  "contactUs": "Contact Us",
+  "suggestionsOrIssues": "If you have suggestions or issues, feel free to reach out",
+  "firstName": "First Name",
+  "enterFirstName": "Enter your first name",
+  "lastName": "Last Name",
+  "phone": "Phone Number",
+  "enterLastName": "Enter your last name",
+  "emailAddress": "Email Address",
+  "enterEmail": "example@gmail.com",
+  "message": "Message",
+  "your_message": "Your Message",
+  "enterMessage": "You can write any message here",
+  "send": "Send",
+  "visit_store": {
+    "title": "Visit our office and experience the quality of our projects!"
+  },
+  "Anonim bog'lanish": "Anonymous Contact",
+  "Bog'lanish": "Contact",
+  "Manzil": "Address",
+  "Savolingiz bormi?": "Do you have a question?",
+  "Shartnomalar uchun": "For Contracts",
+  "Bizga qo'ng'iroq qiling": "Call Us",
+  "Faks": "Fax",
+  "Avtobuslar": "Buses"
+}

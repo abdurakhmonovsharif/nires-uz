@@ -1,0 +1,167 @@
+.structure-head-item {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    width: 40px;
+    height: 2px;
+    background: #000;
+    z-index: -1;
+  }
+
+  &.has-children:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 2px;
+    right: 50%;
+    transform: translateX(50%);
+    height: 10.4vw;
+    background: #000;
+    z-index: -1;
+  }
+}
+
+.structure-wrapper {
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: calc(100% - 28.8%);
+    right: 55.1%;
+    transform: translateX(50%);
+    height: 2px;
+    background: #000;
+    z-index: -1;
+  }
+}
+
+.structure-child-item {
+  position: relative;
+
+  &.head:after {
+    content: "";
+    position: absolute;
+    top: -16px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 2px;
+    height: 40px;
+    background: #000;
+    z-index: -1;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    width: 20px;
+    height: 2px;
+    background: #000;
+    z-index: -1;
+  }
+
+  &.has-children:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    width: 2px;
+    right: 50%;
+    transform: translateX(50%);
+    height: 30px;
+    background: #000;
+    z-index: -1;
+  }
+}
+
+.structure-sub-item {
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    transform: translateX(50%) translateY(-50%);
+    width: 2px;
+    height: calc(100% - 6%);
+    background: #000;
+    z-index: -1;
+  }
+}
+
+.structure-sub-child-item {
+  position: relative;
+
+  &:not(.has-children):after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    width: 20px;
+    height: 2px;
+    background: #000;
+    z-index: -1;
+  }
+}
+
+.structure-sub-child-item-child {
+  position: relative;
+
+  &:nth-child(3n - 1):before {
+    content: "";
+    position: absolute;
+    left: -12px;
+    top: 50%;
+    width: 16px;
+    height: 2px;
+    background: #000;
+    z-index: -1;
+  }
+
+  &:nth-child(2n - 1):after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    width: 16px;
+    height: 2px;
+    background: #000;
+    z-index: -1;
+  }
+}
+
+.structure-child-grid {
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: 50%;
+    width: 2px;
+    height: calc(100% - 20px);
+    background: #000;
+    z-index: -1;
+  }
+}
+
+.structure-child-grid-item {
+  position: relative;
+
+  &:nth-child(2n - 1):after {
+    content: "";
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    width: 20px;
+    height: 2px;
+    background: #000;
+    z-index: -1;
+  }
+}

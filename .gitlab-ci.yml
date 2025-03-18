@@ -1,0 +1,23 @@
+stages:
+  - deploy
+
+before_script:
+  sudo docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+  IMAGE: $CI_REGISTRY/$CI_PROJECT_PATH/$CI_COMMIT_REF_NAME
+
+deploy:
+  stage: deploy
+  tags:
+    - shell
+  environment:
+    name: production
+  only:
+    - main
+  script:
+    - sudo docker-compose -f docker-compose.yml build --no-cache --progress=plain --parallel
+    - sudo docker-compose down --remove-orphans
+    - sudo echo 'all containers stoped'
+    - sudo docker-compose up -d
+    - sudo docker-compose push

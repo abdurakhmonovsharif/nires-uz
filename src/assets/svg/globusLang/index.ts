@@ -1,0 +1,1 @@
+export {default as LangIcon } from './globusLang.svg'

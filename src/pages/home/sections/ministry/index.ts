@@ -1,0 +1,1 @@
+export {Ministry} from './ministry'

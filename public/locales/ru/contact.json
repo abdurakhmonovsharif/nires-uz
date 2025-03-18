@@ -1,0 +1,26 @@
+{
+  "contactUs": "Свяжитесь с нами",
+  "suggestionsOrIssues": "Если у вас есть предложения или проблемы, не стесняйтесь обращаться",
+  "firstName": "Имя",
+  "enterFirstName": "Введите ваше имя",
+  "lastName": "Фамилия",
+  "phone": "Телефонный номер",
+  "enterLastName": "Введите вашу фамилию",
+  "emailAddress": "Электронная почта",
+  "enterEmail": "example@gmail.com",
+  "message": "Сообщение",
+  "your_message": "Ваше сообщение",
+  "enterMessage": "Вы можете написать любое сообщение здесь",
+  "send": "Отправить",
+  "visit_store": {
+    "title": "Посетите наш офис и убедитесь в качестве наших проектов!"
+  },
+  "Anonim bog'lanish": "Анонимная связь",
+  "Bog'lanish": "Связь",
+  "Manzil": "Адрес",
+  "Savolingiz bormi?": "У вас есть вопрос?",
+  "Shartnomalar uchun": "Для контрактов",
+  "Bizga qo'ng'iroq qiling": "Позвоните нам",
+  "Faks": "Факс",
+  "Avtobuslar": "Автобусы"
+}

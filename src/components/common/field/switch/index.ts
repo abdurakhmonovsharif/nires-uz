@@ -1,0 +1,1 @@
+export { AntSwitch } from './switch';

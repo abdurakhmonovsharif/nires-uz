@@ -1,0 +1,1 @@
+export {default as BgVideoHero} from './bg-video.mp4'

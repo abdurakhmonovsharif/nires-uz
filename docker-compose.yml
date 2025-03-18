@@ -1,0 +1,14 @@
+services:
+  app:
+    image: registry.scoringtrust.uz/a.nuraliev/nires-frontend/main:latest
+    container_name: front-nires
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "4193:80"
+    volumes:
+      - "/etc/hosts:/etc/hosts"
+    environment:
+      - TZ=Asia/Tashkent

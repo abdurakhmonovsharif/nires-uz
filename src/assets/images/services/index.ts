@@ -1,0 +1,16 @@
+export { default as image1_scoring } from "./1_scoring.jpg";
+export { default as image2_site_development } from "./2_site-development.png";
+export { default as image3_3d_model } from "./3_3D-model.jpg";
+export { default as image4_kriptografiya } from "./4_kriptografiya.webp";
+export { default as image5_information } from "./5_information.png";
+export { default as image5_information2 } from "./5_information2.webp";
+export { default as image6_scada } from "./6_scada.jpg";
+export { default as image6_scada2 } from "./6_scada2.png";
+export { default as image7_scud } from "./7_scud.jpg";
+export { default as image7_scud2 } from "./7_scud2.webp";
+export { default as image8_elements } from "./8_elements.jpg";
+export { default as image9_robototech } from "./9_robototech.jpg";
+export { default as image10_school } from "./10_school.png";
+export { default as image11_electric } from "./11_electric.png";
+export { default as image12_videomonitoring } from "./12_videomonitoring1.png";
+export { default as image12_videomonitoring2 } from "./12_videomonitoring2.jpg";
